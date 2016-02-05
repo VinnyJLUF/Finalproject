@@ -47,10 +47,26 @@ blockquote, q {
 }
 
 /* Final Project Section */
-body {
+* {
+	border-radius: 5px;
 	background-color: #12B2B2;
 }
-
-h3, h1 {
-	margin: 50px 50px 50px 50px;
+.header {
+	text-align: center;
+	padding: 50px;
+}
+h3,
+h1 {
+	padding-top: 20px;
+	margin-left: 5px;
+	margin-top: 5px;
+	margin-right: 5px;
+	margin-bottom: 5px;
+	font-family: 'Permanent Marker', cursive;
+} 
+h3 {
+	font-size: 35px;
+}
+h1 {
+	font-size: 100px;
 }
