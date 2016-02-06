@@ -57,6 +57,7 @@ html {
 	box-sizing: border-box;
 }
 
+/* Navigation Section */
 .top-navigation {
 	background-color: #5BCECE;
 	position: fixed;
@@ -74,22 +75,24 @@ html {
 .top-navigation .links {
 	float: right;
 }
-
+.top-navigation > .content > .links li, a {
+	color: black;
+}
 .top-navigation .links li {
 	font-family: 'Handlee', cursive, bold;
 	display: inline-block;
 	margin-left: 15px;
 }
 
+/* Photo section */
 .photo {
 	background-image: url('images/coolpix.jpg');
 	background-position: 0 top, left;
 	background-repeat: no-repeat;
-	background-size: 350px 500px;
-	height: 35rem;
+	background-size: 350px 600px;
+	height: 39.5rem;
 	overflow: auto;
 }
-
 .photo > .header h2 {
 	margin: 80px 870px 0px 360px;
 	font-family: 'Permanent Marker', cursive;
@@ -101,19 +104,54 @@ html {
 	font-size: 100px;
 } 
 .photo > .body p {
-	margin: 5px 5px 5px 460px;
+	margin: 5px 8px 5px 460px;
 	font-family: 'Handlee', cursive, bold;
 	font-size: 25px;
 }
+.photo > .header > .body p, a {
+	text-decoration: none;
+	font-style: bold;
+	color: #007171;
+}
+.photo > .font h4 {
+	text-decoration: underline;
+	font-size: 30px;
+}
+.photo > .font > .para {
+	font-size: 25px;
+	margin: 5px 5px 5px 360px;
+}
 
+/* Font section */
 .font {
 	padding: 5px 5px 50px 5px;
 }
 .font .hthree {
+	padding-bottom: 15px;
 	font-size: 30px;
 	font-family: 'Permanent Marker', cursive; 
 }
+.font .para h4 {
+	text-decoration: underline;
+	font-size: 30px;
+}
+.font .para h5 {
+	font-style: italic;
+}
 .font .para {
+	padding-bottom: 15px;
 	font-size: 25px;
 	font-family: 'Handlee', cursive, bold;
+}
+.font > .hthree > .para p, a {
+	text-decoration: none;
+}
+
+/* Clone Section */
+
+
+/* Footer section */
+.footer > .para li, a {
+	text-decoration: none;
+	color: black;
 }
