@@ -67,7 +67,12 @@ html {
 	font-size: 35px
 }
 .photo > .header h1 {
-	margin: 0px 660px 10px 420px;
+	margin: 0px 25px 10px 420px;
 	font-family: 'Permanent Marker', cursive;
 	font-size: 100px;
 } 
+.photo > .body p {
+	margin: 5px 5px 5px 360px;
+	font-family: 'Handlee', cursive, bold;
+	font-size: 25px;
+}
