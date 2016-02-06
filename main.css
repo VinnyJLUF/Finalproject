@@ -52,6 +52,30 @@ html {
 	background-color: #12B2B2;
 }
 
+.top-navigation {
+	background-color: #5BCECE;
+	position: fixed;
+	width: 100%;
+	border-bottom: 1px solid #009494;
+	z-index: 9999;
+}
+.content {
+	margin: 5px;
+	padding: 10px 300px 5px 400px;
+}
+.content .signature {
+	font-family: 'Permanent Marker', cursive;
+}
+.top-navigation .links {
+	float: right;
+}
+
+.top-navigation .links li {
+	font-family: 'Handlee', cursive, bold;
+	display: inline-block;
+	margin-left: 15px;
+}
+
 .photo {
 	background-image: url('../FinalProjectUnitOne/images/coolpix.jpg');
 	background-position: 0 top, left;
@@ -61,7 +85,7 @@ html {
 	overflow: auto;
 }
 
-.photo > .header h3 {
+.photo > .header h2 {
 	margin: 80px 870px 0px 360px;
 	font-family: 'Permanent Marker', cursive;
 	font-size: 35px
